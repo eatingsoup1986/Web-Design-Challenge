@@ -25,17 +25,17 @@
                             PLOTS
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="WebVisualizations/temperature.html">Max Temperature</a>
-                            <a class="dropdown-item" href="WebVisualizations/humidity.html">Humidity</a>
-                            <a class="dropdown-item" href="WebVisualizations/cloudiness.html">Cloudiness</a>
-                            <a class="dropdown-item" href="WebVisualizations/wind.html">Wind Speed</a>
+                            <a class="dropdown-item" href="Pages/temperature.html">Max Temperature</a>
+                            <a class="dropdown-item" href="Pages/humidity.html">Humidity</a>
+                            <a class="dropdown-item" href="Pages/cloudiness.html">Cloudiness</a>
+                            <a class="dropdown-item" href="Pages/wind.html">Wind Speed</a>
                         </div>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="WebVisualizations/comparison.html">COMPARISON</a>
+                        <a class="nav-link" href="Pages/comparison.html">COMPARISON</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="WebVisualizations/data.html">DATA</a>
+                        <a class="nav-link" href="Pages/data.html">DATA</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="https://github.com/eatingsoup1986/Web-Design-Challenge">REPO</a>
@@ -50,15 +50,17 @@
                 <div class="box" style="padding-bottom: 20px;">
                     <h3 class="title">SUMMARY: WEATHER PLOTS <br> (LATITUDE VS. X)</h3>
                     <hr>
-                    <img src="visualisations/Cloudiness_Latitude(Northern).png" class="vizualization rounded float-left" alt="Max Temperature Graph">
-                    <p> The purpose of this project was to analyze how weather across 500+ cities across the world
-                      changes as you get closer to the equator. To accomplish this analysis, OpenWeatherMap API was
-                      utilized to assemble the dataset to create a representative model of weather across world cities.</p>
-                      <br>
-                    <p> Matplotlib was used to build a series of plots to showcase the relationships regarding several variables
-                      of weather vs. latitude. Relationships analyzed included: Temperature (F) vs. Latitude, Humidity (%) vs. Latitude,
-                      Cloudiness (%) vs. Latitude, and Wind Speed (mph) vs. Latitude.</p>
-                      <br>
+                    <img src="visualisations/Temperature vs Latitude.png" class="vizualization rounded float-left" alt="Max Temperature Graph">
+                    <p> This project was to analyze how weather changes across 500+ cities across the world vary depending on the distance form the equator.
+                        To accomplish this analysis, OpenWeatherMap API and a simple Python library (and a little common sense) was used to create
+                        a presentative model of weather across the world cities.</p>
+                        <br>
+                    <p> Matplotlib was then used to build a series of plots to showcase the relationships regarding several variables
+                      of weather vs. latitude. </p>
+                        <br>
+                    <p>Relationships analyzed included: Temperature (C) vs. Latitude, Humidity (%) vs. Latitude,
+                        Cloudiness (%) vs. Latitude, and Wind Speed (km/h) vs. Latitude.</p>
+                        <br>
                     <p> Data and visualizations are are provided as part of the analysis, including explanations and descriptions
                       of trends and correlations.</p>
                 </div>
@@ -70,30 +72,29 @@
                     <div class="container">
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
-                                <div class="title">Latitude(Northern) vs. Max Temperature</div>
-                                <a href="WebVisualizations/temperature.html">
-                                <img class="panel" src="visualisations/Temperature_Latitude(Northern).png" alt="Max Temperature Graph Northern Hemisphere">
+                                <div class="title">Temp vs Latitude</div>
+                                <a href="Pages/temperature.html">
+                                <img class="panel" src="visualisations/Temperature vs Latitude.png" alt="Temperature Graph">
                                 </a>
                             </div>
                             <div class="col-6">
-                                <div class="title">Latitude (Northern) vs. Humidity</div>
-                                <a href="WebVisualizations/humidity.html">
-                                <img class="panel" src="visualisations/Humidity_Latitude(Northern).png" alt="Humidity Graph">
+                                <div class="title">Humidity vs Latitude</div>
+                                <a href="Pages/humidity.html">
+                                <img class="panel" src="visualisations/Humidity vs Latitude.png" alt="Humidity Graph">
                                 </a>
                             </div>
                         </div>
                         <div class="row" style="padding-bottom: 70px;">
                             <div class="col-6">
-                                <div class="title">Latitude (Northern) vs. Cloudiness</div>
-                                <a href="WebVisualizations/cloudiness.html">
-                                <img class="panel" src="visualisations/Cloudiness_Latitude(Northern).png" alt="Cloudiness Graph">
+                                <div class="title">Cloudiness vs Latitude</div>
+                                <a href="Pages/cloudiness.html">
+                                <img class="panel" src="visualisations/Cloudiness vs Latitude.png" alt="Cloudiness Graph">
                                 </a>
-                                <!-- <div class="title">vs. Cloudiness</div> -->
                             </div>
                             <div class="col-6">
-                                <div class="title">Latitude (Northern) vs. Wind Speed</div>
-                                <a href="WebVisualizations/wind.html">
-                                    <img class="panel" src="visualisations/WindSpeed_Latitude(Northern).png" alt="Wind Speed Graph Northern Hemisphere">
+                                <div class="title">Wind speed vs Latitude</div>
+                                <a href="Pages/wind.html">
+                                    <img class="panel" src="visualisations/Wind Speed vs Latitude.png" alt="Wind Speed Graph">
                                 </a>
                             </div>
                         </div>
